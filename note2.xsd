@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.fitm.kmutnb.ac.th"
+	xmlns="http://www.fitm.kmutnb.ac.th" elementFormDefault="qualified">
+	<xs:element name="note2">
+				<element name="to" type="string"/>
+				<xs:element name="from" type="string"/>
+				<xs:element name="heading" type="string"/>
+				<xs:element name="body" type="string"/>
+				<xs:element name="names" type="string"/>
+	</xs:element>
+</xs:schema>

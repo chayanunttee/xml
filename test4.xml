@@ -1,0 +1,9 @@
+<?xml version ="1.0" ?>
+<!DOCTYPE studentinfo SYSTEM "studentinfo.DTD">
+<studentinfo>
+	<st_code>4911110123</st_code>
+	<name>มาลัย</name>
+	<lname>ดอกรัก</lname>
+	<sex>หญิง</sex>
+	<telephone>0-2455-5485-0</telephone>
+	</studentinfo>

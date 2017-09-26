@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+		<teacher>	
+			<people>
+			<ids>001</ids>
+			<name>Tee อิอิ</name>
+			<lname>chayanunt</lname>
+			<age>21</age>
+			<sex>ชาย</sex>
+			<tel>086xxxxxxxx</tel>
+			</people>
+			<people>
+			<ids>002</ids>
+			<name>TOP</name>
+			<lname>Thossapon</lname>
+			<age>21</age>
+			<sex>ชาย</sex>
+			<tel>0869xxxxxxx</tel>
+			</people>
+			<people>
+			<ids>003</ids>
+			<name>Tiar</name>
+			<lname>chayanont</lname>
+			<age>21</age>
+			<sex>ชาย</sex>
+			<tel>089xxxxxxxx</tel>
+			</people>
+		</teacher>
+		

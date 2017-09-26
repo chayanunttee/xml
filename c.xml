@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teacher SYSTEM "teacher.DTD">
+<teacher>
+	<people>
+		<id>001</id>
+		<name>
+			<first>ประดิษฐ์</first>
+			<last>พิทักษ์เสถียรกุล</last>
+		</name>
+		<age>37</age>
+		<sex>ชาย</sex>
+		<locations><address>มจพ.</address></locations>
+		<tel>037-213367</tel>
+	</people>
+	<people>
+		<id>002</id>
+		<name>
+			<first>สมชัย</first>
+			<last>เชียงพงศ์พันธ์</last>
+		</name>
+		<age>33</age>
+		<sex>ชาย</sex>
+		<locations><GPS>กทม.</GPS></locations>
+		<tel>037-213367</tel>
+			
+	</people>
+</teacher>

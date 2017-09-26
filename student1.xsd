@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.fitm.kmutnb.ac.th"
+	xmlns="http://www.fitm.kmutnb.ac.th" elementFormDefault="qualified">
+
+	<xs:element name="it">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="people" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+								<xs:element name="lname" type="xs:string"/>
+								<xs:element name="age" type="xs:integer"/>
+							</xs:sequence>
+						</xs:complexType>
+				</xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

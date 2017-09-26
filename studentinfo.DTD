@@ -1,0 +1,8 @@
+<?xml version ="1.0" ?>
+
+	<!ELEMENT studentinfo (st_code,name,lname,sex,telephone)>
+	<!ELEMENT st_code (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>

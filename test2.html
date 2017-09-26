@@ -1,0 +1,34 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<xml id="dsoTeacher" src="./01.xml">
+	</xml>
+
+	<table>
+		<tr>
+			<td>
+				รหัส<br>
+			</td>
+			<td>
+				<SPAN datasrc="#dsoTeacher" datafld="id">
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				ชื่อ<br>
+			</td>
+			<td>
+				<SPAN datasrc="#dsoTeacher" datafld="name">
+			</td>
+		</tr>
+	</table>
+<form>
+	<input type="button" value="Prev" onclick="dsoTeacher.recordset.movePrevious()">
+</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<shiporder orderid="5248645"
+	xmlns="http://www.fitm.kmutnb.ac.th"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.fitm.kmutnb.ac.th shiporder.xsd">
+
+	<orderperson>Orderperson</orderperson>
+		<shipto>
+			<name>asdasd</name>
+			<address>Langgt 23</address>
+			<city> 4000 Stavanger</city>
+			<country>Norway</country>
+		</shipto>
+
+		<item>
+			<title>Empire Burlesque</title>
+			<note>Special</note>
+			<quantity>1</quantity>
+			<price>10.90</price>
+		</item>
+
+		<item>
+			<title>Hide you</title>
+			<quantity>55</quantity>
+			<price>9.90</price>
+		</item>
+	</shiporder>

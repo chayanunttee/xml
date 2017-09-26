@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--File Name : Particular01_Valid.xml-->
+<!DOCTYPE PARTICULAR
+[
+	<!ELEMENT PARTICULAR (CUSTOMER)*>
+	<!ELEMENT CUSTOMER (Name,Lastname,Address,Telephone)>
+	<!ATTLIST CUSTOMER Stayoffice (yes|no) #REQUIRED>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Email (#PCDATA)>
+	<!ELEMENT Lastname (#PCDATA)>
+	<!ELEMENT Address (#PCDATA | Email)*>
+	<!ELEMENT Telephone (#PCDATA)>
+	<!ATTLIST Telephone Fax CDATA #IMPLIED>
+]
+>
+<PARTICULAR>
+	<CUSTOMER Stayoffice="yes">
+	<Name>Mr.Jaturong </Name>
+	<Lastname>Tangkeaw</Lastname>
+	<Address>16/15 Bangkok 10230<Email>Tangcb1@yahoo.com</Email></Address>
+	<Telephone>0988880445</Telephone>
+</CUSTOMER>
+<CUSTOMER Stayoffice="no">
+	<Name>Miss.siriporn </Name>
+	<Lastname>Tome</Lastname>
+	<Address>69/24 Bangkok 10230</Address>
+	<Telephone>063147584</Telephone>
+</CUSTOMER>
+<CUSTOMER Stayoffice="yes">
+	<Name>Mr.Chiyo </Name>
+	<Lastname>Hohew</Lastname>
+	<Address>15/68 Bangkok 10230<Email>Chiyo#@Hotmail.com</Email></Address>
+	<Telephone Fax="063147584">023936984</Telephone>
+</CUSTOMER>
+<CUSTOMER Stayoffice="yes">
+	<Name>Mr.Mechai </Name>
+	<Lastname>Jared</Lastname>
+	<Address>15/68 chantaburi 22000</Address>
+	<Telephone>023936984</Telephone>
+</CUSTOMER>
+</PARTICULAR>

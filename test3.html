@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+<xml id="dsoTeacher" src="./01.xml">
+	</xml>
+<table id="table1" border="1" datasrc="#dsoTeacher" datapagesize="1" border="1">
+	<thead>
+	<tr>
+		<th>รหัส</th><th>ชื่อเล่น</th><th>ชือ่จริง</th><th>อายุ</th><th>เพศ</th><th>เบอร์</th>
+	</tr>
+	</thead>
+	<tr>
+		<td>
+				<SPAN  datafld="ids">
+		</td>
+			<td>
+				<SPAN  datafld="name">
+			</td>
+			<td>
+				<SPAN  datafld="lname">
+			</td>
+			<td>
+				<SPAN  datafld="age">
+			</td>
+			<td>
+				<SPAN  datafld="sex">
+			</td>
+			<td>
+				<SPAN  datafld="tel">
+			</td>
+
+	</tr>
+
+</table>
+<form>
+	<input type="button" value="First" onclick="dsoTeacher.recordset.moveFirst() ">
+	<input type="button" value="Prev" onclick="table1.previousPage()">
+	<input type="button" value="next" onclick="table1.nextPage()">
+	<input type="button" value="Last" onclick="dsoTeacher.recordset.moveLast()">
+</form>
+</body>
+</html>

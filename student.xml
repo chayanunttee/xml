@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student[
+<!ELEMENT student (studentinfo+)>
+<!ELEMENT studentinfo (st_code,name,lname,sex,telephone)>
+<!ELEMENT st_code (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+]>
+<student>
+<studentinfo>
+	<st_code>4911110123</st_code>
+	<name>มาลัย</name>
+	<lname>ดอกรัก</lname>
+	<sex>หญิง</sex>
+	<telephone>0-2455-5485-0</telephone>
+</studentinfo>
+</student>

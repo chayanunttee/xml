@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT teacher (people+)>
+<!ELEMENT people (id,name,age,sex,locations,tel)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (first,last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT locations (address?|GPS?)*>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT GPS (#PCDATA)>

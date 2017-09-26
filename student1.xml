@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<it xmlns="http://www.fitm.kmutnb.ac.th"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.fitm.kmutnb.ac.th student1.xsd">
+	<people>
+		<name>aaa</name>
+		<lname>bbb</lname>
+		<age>17</age>
+	</people>
+	<people>
+		<name>ccc</name>
+		<lname>ddd</lname>
+		<age>18</age>
+	</people>
+</it>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE census-record SYSTEM "testmid.DTD">
+<census-record>
+	<taker>3163</taker>
+	<date>
+		<day>11</day><month>10</month><year>2008</year>
+	</date>
+	<address>
+		<street>471</street>
+		<city>เนินหอม</city>
+		<county>เมือง</county>
+		<county>ปราจีนบุรี</county>
+		<postalcode>25230</postalcode>
+	</address>
+
+	<person>
+		<pid>P270405</pid>
+		<name>
+			<first>มีชัย</first>
+			<last>บุญมา</last>
+		</name>
+		<age>39</age>
+		<gender>male</gender>
+		<employee>fulltime</employee>
+	</person>
+
+	<person>
+		<pid>P273882</pid>
+		<name>
+			<first>สมใจ</first>
+			<last>บุญมา</last>
+		</name>
+		<age>36</age>
+		<gender>female</gender>
+		<employee>parttime</employee>
+	</person>
+	<person>
+		<pid>P472891</pid>
+		<name>
+			<first>ชัยบุญ</first>
+			<last>บุญมา</last>
+		</name>
+		<age>11</age>
+		<gender>male</gender>
+	</person>
+</census-record>

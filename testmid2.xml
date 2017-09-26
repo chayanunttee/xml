@@ -1,0 +1,7 @@
+<date xmlns="http://www.fitm.kmutnb.ac.th"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.fitm.kmutnb.ac.th date.xsd">
+	<day>1</day>
+	<month>10</month>
+	<year>aaa</year>
+</date>
